@@ -56,11 +56,11 @@ function writePassword() {
   }
 
   function randomlLetter() {
-    let rlLetter = Math.floor(Math.random() * 25)
+    let rlLetter = Math.floor(Math.random() * 26)
     realPassword.push(alpha[rlLetter])
 }
   function randomuLetter() {
-    let ruLetter = Math.floor(Math.random() * 25)
+    let ruLetter = Math.floor(Math.random() * 26)
     let test = alpha[ruLetter]
     realPassword.push(test.toUpperCase())
   }
